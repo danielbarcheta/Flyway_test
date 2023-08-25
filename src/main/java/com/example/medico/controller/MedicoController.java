@@ -24,7 +24,7 @@ public class MedicoController {
 
     @PostMapping
     @Transactional
-    public void cadastrar(@RequestBody  @Validg DadosCadastroMedico dados){
+    public void cadastrar(@RequestBody  @Valid DadosCadastroMedico dados){
        // repository.save(medico) <- é o que queremos fazer!
         // No entanto, recebemos os dados por meio de um DTO (DadosCadastroMedico). Precisamos converter!
 
