@@ -23,6 +23,7 @@ public class Medico {
     private String crm;
     @Enumerated(EnumType.STRING)
     private Especialidade especialidade;
+    private  Boolean ativo = true;
 
     @Embedded /* Faz com que Endereco, apesar de ser de uma classe diferente,
     Faça parte da mesma tabela que os demais atributos no banco de dados*/
@@ -48,5 +49,9 @@ public class Medico {
         if(dados.endereco()!=null){
             this.endereco.atualizarInformacoes(dados.endereco());
         }
+    }
+
+    public void excluir(Long id) {
+        this.ativo = false;
     }
 }
