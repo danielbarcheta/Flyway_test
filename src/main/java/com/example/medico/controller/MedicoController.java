@@ -1,6 +1,6 @@
 package com.example.medico.controller;
 
-import com.example.medico.medico.*;
+import com.example.medico.domain.medico.*;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

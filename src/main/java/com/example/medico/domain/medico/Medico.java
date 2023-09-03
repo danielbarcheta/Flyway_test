@@ -1,6 +1,6 @@
-package com.example.medico.medico;
+package com.example.medico.domain.medico;
 
-import com.example.medico.endereco.Endereco;
+import com.example.medico.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

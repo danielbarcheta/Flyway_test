@@ -1,6 +1,6 @@
-package com.example.medico.medico;
+package com.example.medico.domain.medico;
 
-import com.example.medico.endereco.DadosEndereco;
+import com.example.medico.domain.endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
 public record DadosAtualizacaoMedico(

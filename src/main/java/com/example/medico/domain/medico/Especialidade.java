@@ -1,4 +1,4 @@
-package com.example.medico.medico;
+package com.example.medico.domain.medico;
 
 public enum Especialidade {
 
